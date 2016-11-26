@@ -1,0 +1,48 @@
+.navbar {
+  height: 5em;
+  margin-bottom: 0;
+  background-color: white;
+}
+.navbar .links {
+  background-color: whitesmoke;
+  height: 4.9em;
+}
+.navbar .words {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  margin-top: 0.5em;
+}
+.navbar .covershark {
+  background-image: url('images/logo-color.svg');
+  height: 4em;
+  width: 15em;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-color: white;
+  margin-top: 0.5em;
+}
+.navbar .facebook {
+  background-image: url('images/fb-grey.svg');
+  height: 2em;
+  width: 3em;
+  background-size: auto;
+  background-repeat: no-repeat;
+  margin-top: 1em;
+}
+.navbar .twitter {
+  background-image: url('images/twitter-grey.svg');
+  height: 2em;
+  width: 3em;
+  background-size: auto;
+  background-repeat: no-repeat;
+  margin-top: 1em;
+}
+.navbar ul {
+  list-style-type: none;
+}
+.navbar ul li {
+  display: inline;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  text-align: center;
+}

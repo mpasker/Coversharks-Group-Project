@@ -1,0 +1,157 @@
+.first-section .background {
+  background-image: url('images/coversharks-web-hero.jpg'), url('images/bkgrnd.svg');
+  z-index: -1;
+  height: 40em;
+  background-size: cover;
+}
+.first-section h1 {
+  margin-top: 3em;
+  color: white;
+  margin-left: 1em;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  background-color: deepskyblue;
+  text-align: center;
+  font-size: 3.5em;
+}
+.first-section p {
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  margin-left: 5em;
+  font-size: 1.5em;
+}
+.first-section button {
+  background-color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  margin-left: 6em;
+}
+.first-section img {
+  height: 40em;
+}
+.second-section {
+  margin-bottom: 0;
+}
+.second-section img {
+  margin-top: 2em;
+}
+.second-section h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  margin-top: 5em;
+  color: darkgray;
+}
+.second-section h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  color: lightseagreen;
+  font-size: 4em;
+}
+.second-section button {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 0.5em;
+}
+.third-section .background {
+  background-image: url('images/bkgrnd.svg');
+  background-size: cover;
+  height: 40em;
+}
+.third-section h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  color: deepskyblue;
+  text-align: center;
+  margin-top: 3em;
+  font-size: 3.5em;
+  margin-left: 1em;
+}
+.third-section p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  margin-left: 5em;
+}
+.third-section button {
+  background-color: white;
+  color: gray;
+  margin-left: 15em;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+}
+.third-section img {
+  height: 40em;
+  width: 35em;
+}
+.fourth-section {
+  background-color: lightgrey;
+}
+.fourth-section h1 {
+  color: deepskyblue;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+}
+.fourth-section .panel-default {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+.fourth-section .panel-default .panel-body {
+  height: 27em;
+}
+.fourth-section .panel-default .panel-body img {
+  height: 12em;
+  width: 20em;
+  margin-top: 1em;
+}
+.fourth-section .panel-default .panel-body h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: gray;
+}
+.fourth-section .panel-default .panel-body p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: darkgray;
+}
+.fourth-section h3 {
+  color: deepskyblue;
+  text-align: center;
+}
+.fourth-section button {
+  background-color: black;
+  color: white;
+  font-family: 'Robot Condensed';
+}
+.fourth-section input {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+}
+.footer {
+  background-color: #302e2e;
+}
+.footer .footer-logo {
+  height: 10em;
+  width: 10em;
+}
+.footer .footer-fb {
+  height: 3em;
+  width: 3em;
+}
+.footer .footer-twitter {
+  height: 3em;
+  width: 3em;
+}
+.footer ul {
+  list-style-type: none;
+}
+.footer ul li {
+  color: white;
+}
