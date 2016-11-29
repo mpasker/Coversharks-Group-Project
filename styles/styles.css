@@ -168,6 +168,9 @@
   color: white;
   font-weight: 300;
 }
+#signup {
+  background-color: deepskyblue;
+}
 .navbar {
   height: 5em;
   margin-bottom: 0;
@@ -183,7 +186,7 @@
   margin-top: 0.5em;
 }
 .navbar .covershark {
-  background-image: url('images/Home/logo-color.svg');
+  background-image: url('../images/Home/logo-color.svg');
   height: 4em;
   width: 15em;
   background-size: auto;
@@ -192,7 +195,7 @@
   margin-top: 0.5em;
 }
 .navbar .facebook {
-  background-image: url('images/Home/fb-grey.svg');
+  background-image: url('../images/Home/fb-grey.svg');
   height: 2em;
   width: 3em;
   background-size: auto;
@@ -200,7 +203,7 @@
   margin-top: 1em;
 }
 .navbar .twitter {
-  background-image: url('images/Home/twitter-grey.svg');
+  background-image: url('../images/Home/twitter-grey.svg');
   height: 2em;
   width: 3em;
   background-size: auto;
