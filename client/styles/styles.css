@@ -202,7 +202,7 @@
   background-image: "/Users/wayneburris/Desktop/DepotU/CoversharksTeam/Coversharks-Group-Project/images/HowToPlay/how-to-play-hero.jpg";
 }
 #about-hero {
-  background-image: url('images/about/about-hero.jpg');
+  background-image: url('..images/about/about-hero.jpg');
   height: 10em;
   background-size: cover;
 }
