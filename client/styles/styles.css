@@ -1,9 +1,9 @@
 @media screen and (max-width: 632px) {
   .covershark {
-    background-image: url('images/coversharks-mark-white.svg');
+    background-image: url('..images/Home/coversharks-mark-white.svg');
   }
   .first-section {
-    background-image: url('images/coversharks-home-mobile-hero.png');
+    background-image: url('..images/Home/coversharks-home-mobile-hero.png');
     background-size: cover;
     height: 40em;
     text-align: center;
@@ -21,7 +21,7 @@
   }
 }
 .first-section .background {
-  background-image: url('images/coversharks-web-hero.jpg'), url('images/bkgrnd.svg');
+  background-image: url('..images/Home/coversharks-web-hero.jpg');
   z-index: -1;
   height: 40em;
   background-size: cover;
@@ -79,7 +79,7 @@
   font-size: 0.5em;
 }
 .third-section .background {
-  background-image: url('images/bkgrnd.svg');
+  background-image: url('..images/Home/bkgrnd.svg');
   background-size: cover;
   height: 40em;
 }
