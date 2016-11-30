@@ -182,14 +182,33 @@
   text-align: justify;
   margin-bottom: 6em;
 }
+.story hr {
+  color: darkgrey;
+  height: 0;
+}
+.story h3 {
+  margin-top: 0;
+  color: darkgray;
+}
 h2 {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: #444444;
   font-weight: 600;
+  margin-bottom: 0;
 }
 #signup {
-  background-color: deepskyblue;
+  background-color: #2d97d2;
+  height: 10em;
+}
+#signup p {
+  margin-top: 2em;
+  text-align: center;
+  color: white;
+}
+button {
+  background-color: #404042;
+  color: white;
 }
 .navbar {
   height: 5em;
