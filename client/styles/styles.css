@@ -13,10 +13,19 @@
   .first-section .image1 {
     display: none;
   }
+  .third-section img {
+    display: none;
+  }
+  .third-section #questions {
+    display: none;
+  }
 }
 @media screen and (min-width: 631px) {
   .first-section .image2 {
     display: none;
+  }
+  .first-section .fourth-section {
+    background-color: white;
   }
 }
 .row {
@@ -104,9 +113,12 @@
 .third-section button {
   background-color: white;
   color: gray;
-  margin-left: 15em;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
+  text-align: center;
+}
+.third-section #center-button {
+  text-align: center;
 }
 .third-section img {
   width: 35em;
