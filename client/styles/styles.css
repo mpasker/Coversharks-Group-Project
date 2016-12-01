@@ -5,7 +5,6 @@
   .first-section {
     background-image: url('../images/Home/coversharks-home-mobile-hero.png');
     background-size: cover;
-    height: 40em;
     text-align: center;
   }
   .second-section {
@@ -60,7 +59,6 @@
 }
 .second-section img {
   margin-top: 2em;
-  max-height: 100%;
 }
 .second-section h3 {
   font-family: 'Roboto Condensed', sans-serif;
@@ -111,7 +109,6 @@
   font-weight: 400;
 }
 .third-section img {
-  height: 40em;
   width: 35em;
 }
 .fourth-section {
