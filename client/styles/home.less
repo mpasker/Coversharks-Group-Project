@@ -1,7 +1,35 @@
+@media screen and (max-width: 632px){
+    .covershark {
+        background-image: url('..images/Home/coversharks-mark-white.svg');
+    }
+    .first-section {
+        background-image: url('..images/Home/coversharks-home-mobile-hero.png');
+        background-size: cover;
+        height: 40em;
+        text-align: center;
+    }
+    .second-section {
+        text-align: center;
+    }
+    .first-section {
+       .image1{
+            display: none;
+            }
+    }
+}
+
+@media screen and (min-width: 631px){
+    .first-section {
+       .image2{
+            display: none;
+            }
+    }
+}
+
 .first-section {
 
     .background {
-        background-image: url('images/coversharks-web-hero.jpg'), url('images/bkgrnd.svg');
+        background-image: url('..images/Home/coversharks-web-hero.jpg');
         z-index: -1;
         height: 40em;
         background-size: cover;
@@ -34,9 +62,10 @@
         margin-left: 6em;
     }
 
-    img {
-        height: 40em;
+    .image1 {
+       max-height: 100%;
     }
+
 }
 
 .second-section {
@@ -44,6 +73,7 @@
 
     img {
         margin-top: 2em;
+        max-height: 100%;
     }
 
     h3 {
@@ -72,7 +102,7 @@
 .third-section {
 
     .background {
-        background-image: url('images/bkgrnd.svg');
+        background-image: url('..images/Home/bkgrnd.svg');
         background-size: cover;
         height: 40em;
     }
@@ -157,7 +187,8 @@
     button {
         background-color: black;
         color: white;
-        font-family: 'Robot Condensed';
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 400;
     }
 
     input {
@@ -172,25 +203,47 @@
     background-color: #302e2e;
 
     .footer-logo {
-        height: 10em;
-        width: 10em;
+        height: 7em;
+        width: 7em;
     }
 
     .footer-fb {
-        height: 3em;
-        width: 3em;
+        height: 2em;
+        width: 2em;
+        margin-left: 1em;
     }
 
     .footer-twitter {
-        height: 3em;
-        width: 3em;
+        height: 2em;
+        width: 2em;
+        margin-left: 1em;
     }
 
     ul {
         list-style-type: none;
+        margin-top: 3em;
 
         li {
-            color: white;
+            color: steelblue;
+            font-family: "Work Sans", sans-serif;
+            font-weight: 600;
          }
+    }
+
+    .first-list {
+             border-right: 1px solid steelblue;
+         }
+
+    button {
+        background-color: mediumseagreen;
+        margin-top: 2em;
+        font-family: "Roboto Condensed", sans-serif;
+        font-weight: 400;
+        margin-left: 5em;
+    }
+
+    .final {
+        background-color: black;
+        color: darkslategray;
     }
 }
