@@ -22,6 +22,14 @@
   .fourth-section {
     background-color: white;
   }
+  .fourth-section .panel-default {
+    margin-left: -3em;
+    margin-right: -3em;
+  }
+  .fourth-section .panel-default img {
+    height: 100%;
+    width: 100%;
+  }
 }
 @media screen and (min-width: 631px) {
   .first-section .image2 {
@@ -134,25 +142,13 @@
   font-family: 'Work Sans', sans-serif;
   font-weight: 800;
 }
-.fourth-section .panel-default {
-  margin-left: 3em;
-  margin-right: 3em;
-}
-.fourth-section .panel-default .panel-body {
-  height: 13em;
-}
-.fourth-section .panel-default .panel-body img {
-  height: 12em;
-  width: 20em;
-  margin-top: 1em;
-}
-.fourth-section .panel-default .panel-body h4 {
+.fourth-section h4 {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
   text-align: center;
   color: gray;
 }
-.fourth-section .panel-default .panel-body p {
+.fourth-section p {
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   text-align: center;
