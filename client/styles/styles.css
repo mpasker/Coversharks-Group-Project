@@ -270,11 +270,11 @@ h2 {
   font-weight: 600;
   margin-bottom: 0;
 }
-#signup {
+#signup-section {
   background-color: #2d97d2;
   height: 10em;
 }
-#signup p {
+#signup-section p {
   margin-top: 2em;
   text-align: center;
   color: white;
@@ -283,8 +283,30 @@ button {
   background-color: #404042;
   color: white;
 }
-#team {
+#team-section {
+  background-color: #f2f3f4;
+}
+#team-text {
+  text-align: center;
+  margin-bottom: 1em;
+}
+#team-text h2 {
+  color: #27b994;
+  margin-bottom: 0.5em;
+}
+#team-text p {
+  color: darkgrey;
+  line-height: 2em;
+}
+.bio,
+.bio-pic {
   background-color: white;
+  height: 16em;
+  margin-bottom: 2em;
+}
+.bio-pic {
+  padding-top: 0.5em;
+  padding-left: 0;
 }
 .navbar {
   height: 5em;
