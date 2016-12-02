@@ -9,25 +9,40 @@
         <link rel="stylesheet" href="styles/styles.css">
 	</head>
 	<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header covershark">
+          <button type="button" class="navbar-toggle collapsed" 
+                                data-toggle="collapse" 
+                                data-target="#myNavbar" 
+                                aria-expanded="false">
+                        
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <!--<div class="covershark"></div>-->
+        </div>
 
-		<nav class="navbar navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-    <div class="covershark"></div>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right links">
-        <li><div class="facebook"></div></li>
-        <li><div class="twitter"></div></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right words">
-        <li class="active"><a href="#">HOW TO PLAY</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">PROMOTIONS</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <!--<ul class="nav navbar-nav navbar-right links">
+            <li><div class="facebook"></div></li>
+            <li><div class="twitter"></div></li>
+          </ul>-->
+          <ul class="nav navbar-nav navbar-right words">
+            <li class="active page-scroll"><a href="#">HOW TO PLAY</a></li>
+            <li>
+              <a class="page-scroll" href="#">ABOUT</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#">PROMOTIONS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
 		<div ng-view></div>
                           <!--Bootstrap scripts-->

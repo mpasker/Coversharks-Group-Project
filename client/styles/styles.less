@@ -3,6 +3,27 @@
 @import "promotions.less";
 @import "about.less";
 
+@media screen and (max-width: 575px){
+    li {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 576px){
+    li {
+        display: inline;
+    }
+}
+
+button {
+    color: red;
+    float: right;
+}
+
+.page-scroll {
+    background-color: grey;
+}
+
 .navbar {
     height: 5em;
     margin-bottom: 0;
@@ -52,7 +73,6 @@
        
 
         li {
-            display: inline;
             margin-left: 1.5em;
             margin-right: 1.5em;
             text-align: center;
