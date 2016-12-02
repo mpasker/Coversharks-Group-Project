@@ -265,6 +265,13 @@
   text-transform: uppercase;
   font-size: 2em;
 }
+.circle {
+  background-color: blue;
+  font-family: "Work Sans";
+  border-radius: 50%;
+  width: 1.5em;
+  color: white;
+}
 #promotions-hero {
   background-image: url('../images/Promotions/-promo-hero.jpg');
   height: 20em;
