@@ -325,7 +325,21 @@
   letter-spacing: 0.1em;
   padding-top: 1em;
 }
-#win md-button {
+#win button {
+  text-transform: uppercase;
+  padding: 1em 3em 1em 3em;
+  margin-top: 1em;
+  letter-spacing: 0.2em;
+  background-color: #3a3a3a;
+  color: white;
+}
+#registerForm {
+  background-color: white;
+}
+#registerForm input {
+  margin-bottom: 1em;
+}
+#registerForm button {
   text-transform: uppercase;
   padding: 1em 3em 1em 3em;
   margin-top: 1em;
