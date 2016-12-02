@@ -1,7 +1,4 @@
 @media screen and (max-width: 632px) {
-  .covershark {
-    background-image: url('../images/Home/coversharks-mark-white.svg');
-  }
   .first-section {
     background-image: url('../images/Home/coversharks-home-mobile-hero.png');
     background-size: cover;
@@ -405,22 +402,30 @@ button {
   li {
     display: block;
   }
+  .image1 {
+    display: none;
+  }
+  .navbar {
+    background-image: url('../images/Home/coversharks-home-mobile-hero.png');
+  }
 }
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 575px) and screen and (min-width: 576px) {
   li {
     display: inline;
   }
 }
-button {
-  color: red;
-  float: right;
-}
 .page-scroll {
-  background-color: grey;
+  background-color: white;
 }
 .navbar {
   height: 5em;
   margin-bottom: 0;
+  background-color: white;
+}
+.navbar .navbar-default {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
   background-color: white;
 }
 .navbar .links {
@@ -432,13 +437,11 @@ button {
   font-weight: 600;
   margin-top: 0.5em;
 }
-.navbar .covershark {
-  background-image: url('../images/Home/logo-color.svg');
+.navbar img {
   height: 4em;
   width: 15em;
   background-size: auto;
   background-repeat: no-repeat;
-  background-color: white;
   margin-top: 0.5em;
 }
 .navbar .facebook {

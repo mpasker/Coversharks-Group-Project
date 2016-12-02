@@ -7,27 +7,38 @@
     li {
         display: block;
     }
-}
+
+    .image1 {
+        display: none;
+    }
+
+    .navbar {
+        background-image: url('../images/Home/coversharks-home-mobile-hero.png');
+    }
 
 @media screen and (min-width: 576px){
     li {
         display: inline;
     }
 }
-
-button {
-    color: red;
-    float: right;
 }
 
+
 .page-scroll {
-    background-color: grey;
+    background-color: white;
 }
 
 .navbar {
     height: 5em;
     margin-bottom: 0;
     background-color: white;
+
+    .navbar-default {
+        -webkit-transition: all 0.35s;
+        -moz-transition: all 0.35s;
+        transition: all 0.35s;
+        background-color: white;
+    }
 
     .links {
         background-color: whitesmoke;
@@ -40,13 +51,11 @@ button {
         margin-top: 0.5em;
     }
 
-    .covershark {
-        background-image: url('../images/Home/logo-color.svg');
+    img {
         height: 4em;
         width: 15em;
         background-size: auto;
         background-repeat: no-repeat;
-        background-color: white;
         margin-top: 0.5em;
     }
 
