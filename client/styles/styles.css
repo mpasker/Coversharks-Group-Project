@@ -239,7 +239,7 @@
   text-align: center;
   text-transform: uppercase;
   line-height: 5em;
-  font-family: Roboto Condensed;
+  font-family: "Roboto Condensed";
 }
 .tabs {
   border-bottom: 2px solid grey;
@@ -249,28 +249,38 @@
   display: inline-block;
   vertical-align: middle;
 }
+.getting-started-container {
+  margin: 2em;
+}
 .getting-started-container h3 {
-  font-family: "Work Sans";
+  font-family: "Work Sans Extra Bold";
   font-weight: bolder;
 }
 .getting-started-container h4 {
-  font-family: "Work Sans";
+  font-family: "Work Sans Extra Bold";
   font-weight: bolder;
   color: grey;
 }
 .overview-container h2 {
   color: #3db893;
-  font-family: "Work Sans";
+  font-family: "Work Sans Extra Bold";
   font-weight: 700;
   text-transform: uppercase;
   font-size: 2em;
 }
 .circle {
-  background-color: blue;
-  font-family: "Work Sans";
+  background-color: #2995c7;
+  font-family: "Work Sans Extra Bold";
   border-radius: 50%;
-  width: 1.5em;
+  width: 36px;
+  height: 36px;
+  padding: 5px;
   color: white;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 700;
+  vertical-align: middle;
+  line-height: 170%;
 }
 #promotions-hero {
   background-image: url('../images/Promotions/-promo-hero.jpg');
