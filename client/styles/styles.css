@@ -250,13 +250,51 @@
   margin: 2em;
 }
 .getting-started-container h3 {
-  font-family: "Work Sans Extra Bold";
+  font-family: "Work Sans";
+  text-transform: uppercase;
   font-weight: bolder;
+  text-align: left;
+  padding-left: 0;
+  margin-top: 3em;
 }
 .getting-started-container h4 {
   font-family: "Work Sans Extra Bold";
   font-weight: bolder;
   color: grey;
+  text-align: left;
+}
+.getting-started-container .blueText {
+  color: #2995c7;
+  font-family: "Work Sans Extra Bold";
+}
+.getting-started-container .greyText {
+  color: #a6a8ab;
+  font-family: "Roboto Bold Condensed";
+}
+.getting-started-container .row {
+  margin: 2em;
+}
+.getting-started-container #email {
+  width: 85%;
+  display: block;
+  border: 1px solid #a6a8ab;
+  margin: 2em auto;
+  text-align: center;
+  padding: 0;
+  border-radius: 8px;
+  font-size: .8em;
+  height: 2.5em;
+  background-color: #fff;
+  color: #404042;
+}
+.overview-container {
+  background-color: #f1f2f2;
+  margin: 0;
+  width: 100%;
+}
+.overview-container .row {
+  margin-left: 0;
+  margin-right: 0;
 }
 .overview-container h2 {
   color: #3db893;
