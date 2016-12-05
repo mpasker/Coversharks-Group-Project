@@ -319,14 +319,13 @@
 }
 #promotions-hero {
   background-image: url('../images/Promotions/-promo-hero.jpg');
-  height: 20em;
+  height: 30em;
   background-size: cover;
-  margin-top: 10em;
   margin-bottom: 5em;
 }
 #promotions-hero h2 {
   text-align: center;
-  margin-top: 4em;
+  margin-top: 8em;
   color: white;
   font-weight: 300;
 }
@@ -384,6 +383,7 @@
   letter-spacing: 0.2em;
   background-color: #3a3a3a;
   color: white;
+  margin-bottom: 1em;
 }
 @media only screen and (max-width: 632px) {
   .about-image {
