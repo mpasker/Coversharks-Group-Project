@@ -274,7 +274,7 @@
   text-align: center;
   text-transform: uppercase;
   line-height: 5em;
-  font-family: "Roboto Condensed";
+  font-family: "Roboto", condensed;
 }
 .tabs {
   border-bottom: 2px solid grey;
@@ -285,7 +285,7 @@
   vertical-align: middle;
 }
 .getting-started-container {
-  margin: 2em;
+  margin: 4em;
 }
 .getting-started-container h3 {
   font-family: "Work Sans";
@@ -296,20 +296,20 @@
   margin-top: 3em;
 }
 .getting-started-container h4 {
-  font-family: "Work Sans Extra Bold";
+  font-family: "Work Sans", extra-bold;
   font-weight: bolder;
   color: grey;
   text-align: left;
 }
 .getting-started-container .blueText {
   color: #2995c7;
-  font-family: "Work Sans Extra Bold";
+  font-family: "Work Sans", extra-bold;
   text-align: left;
   display: block;
 }
 .getting-started-container .greyText {
   color: #a6a8ab;
-  font-family: "Roboto Bold Condensed";
+  font-family: "Roboto", bold-condensed;
   text-align: left;
   display: block;
 }
@@ -331,7 +331,6 @@
 }
 .overview-container {
   background-color: #f1f2f2;
-  margin: 0;
   width: 100%;
 }
 .overview-container .row {
@@ -340,14 +339,19 @@
 }
 .overview-container h2 {
   color: #3db893;
-  font-family: "Work Sans Extra Bold";
+  font-family: "Work Sans", extra-bold;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 2em;
+  text-align: center;
+  padding-top: 1.5em;
+}
+.overview-container .overview-list {
+  margin: 2em;
 }
 .circle {
   background-color: #2995c7;
-  font-family: "Work Sans Extra Bold";
+  font-family: "Work Sans", extra-bold;
   border-radius: 50%;
   width: 36px;
   height: 36px;
@@ -362,6 +366,28 @@
 .btn-primary {
   background-color: #404042;
   border: none;
+}
+hr {
+  color: grey;
+}
+.overview-item {
+  margin: 2em;
+  color: grey;
+}
+.overview-item.row {
+  margin: 2em;
+}
+.overview-list-image.row {
+  margin: 8em;
+  color: grey;
+  line-height: 1.5em;
+}
+#blueH2 {
+  color: #2995c7;
+  margin-bottom: 0;
+  text-align: left;
+  line-height: 1.5em;
+  font-weight: 700;
 }
 #promotions-hero {
   background-image: url('../images/Promotions/-promo-hero.jpg');
