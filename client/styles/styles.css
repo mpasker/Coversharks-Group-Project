@@ -266,10 +266,14 @@
 .getting-started-container .blueText {
   color: #2995c7;
   font-family: "Work Sans Extra Bold";
+  text-align: left;
+  display: block;
 }
 .getting-started-container .greyText {
   color: #a6a8ab;
   font-family: "Roboto Bold Condensed";
+  text-align: left;
+  display: block;
 }
 .getting-started-container .row {
   margin: 2em;
@@ -316,6 +320,10 @@
   font-weight: 700;
   vertical-align: middle;
   line-height: 170%;
+}
+.btn-primary {
+  background-color: #404042;
+  border: none;
 }
 #promotions-hero {
   background-image: url('../images/Promotions/-promo-hero.jpg');
