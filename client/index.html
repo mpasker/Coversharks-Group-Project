@@ -16,7 +16,7 @@
           <img class="image2" src="../images/Home/coversharks-mark-white.svg">
           <button type="button" class="navbar-toggle collapsed" 
                                 data-toggle="collapse" 
-                                data-target="#myNavbar" 
+                                data-target="#myNavbar, #anotherID, #myUl"
                                 aria-expanded="false">
                         
             <span class="sr-only">Toggle navigation</span>
@@ -27,13 +27,14 @@
         </div>
 
 
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <!--<ul class="nav navbar-nav navbar-right links">
-            <li><div class="facebook"></div></li>
-            <li><div class="twitter"></div></li>
-          </ul>-->
+        <div class="collapse navbar-collapse" id="anotherID">
+          <div id="myNavbar"></div>
+          <ul id="myUl" class="nav navbar-nav navbar-right links">
+            <li><div class="facebook page-scroll"></div></li>
+            <li><div class="twitter page-scroll"></div></li>
+          </ul>
           <ul class="nav navbar-nav navbar-right words">
-            <li class="active page-scroll"><a href="#">HOW TO PLAY</a></li>
+            <li class="page-scroll"><a class="page-scroll" href="#">HOW TO PLAY</a></li>
             <li>
               <a class="page-scroll" href="#">ABOUT</a>
             </li>
