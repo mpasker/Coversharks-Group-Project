@@ -1,7 +1,7 @@
 var c = angular.module('CoverSharks.controllers', []);
 
 
-c.controller('homeController' ['#scope', function($scope){
+c.controller('HomeController', ['$scope', function($scope){
     console.log("controlling the home page");
     
-}])
+}]);
