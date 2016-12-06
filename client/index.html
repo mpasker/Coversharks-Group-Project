@@ -12,8 +12,10 @@
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header covershark">
+          <a href="/#/home/">
           <img class="image1" src="../images/Home/logo-color.svg">
           <img class="image2" src="../images/Home/coversharks-mark-white.svg">
+          </a>
           <button type="button" class="navbar-toggle collapsed" 
                                 data-toggle="collapse" 
                                 data-target="#myNavbar, #anotherID, #myUl"
@@ -30,16 +32,16 @@
         <div class="collapse navbar-collapse" id="anotherID">
           <div id="myNavbar"></div>
           <ul id="myUl" class="nav navbar-nav navbar-right links">
-            <li><div class="facebook page-scroll"></div></li>
-            <li><div class="twitter page-scroll"></div></li>
+            <li><a href="https://www.facebook.com"><div class="facebook page-scroll"></div></a></li>
+            <li><a href="https://twitter.com/coversharks"><div class="twitter page-scroll"></div></a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right words">
-            <li class="page-scroll"><a class="page-scroll" href="#">HOW TO PLAY</a></li>
+            <li class="page-scroll"><a class="page-scroll" href="/#/howtoplay/">HOW TO PLAY</a></li>
             <li>
-              <a class="page-scroll" href="#">ABOUT</a>
+              <a class="page-scroll" href="/#/about/">ABOUT</a>
             </li>
             <li>
-              <a class="page-scroll" href="#">PROMOTIONS</a>
+              <a class="page-scroll" href="/#/promotions/">PROMOTIONS</a>
             </li>
           </ul>
         </div>
@@ -57,8 +59,8 @@
 							            <!--angular to navigate through app-->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular-route.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+    <script src="js/controllers.js"></script>
                           <!--Javascript files-->
     <script src="js/main.js"></script>
-    <script src="js/controllers.js"></script>
 	</body>
 </html>

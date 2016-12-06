@@ -664,6 +664,7 @@ button {
   background-size: auto;
   background-repeat: no-repeat;
   margin-top: 1em;
+  vertical-align: middle;
 }
 .navbar .twitter {
   background-image: url('../images/Home/twitter-grey.svg');
@@ -672,6 +673,7 @@ button {
   background-size: auto;
   background-repeat: no-repeat;
   margin-top: 1em;
+  vertical-align: middle;
 }
 .navbar ul {
   list-style-type: none;
