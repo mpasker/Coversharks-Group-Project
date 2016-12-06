@@ -142,48 +142,6 @@
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
 }
-.footer {
-  background-color: #302e2e;
-  margin-right: -15px;
-  margin-left: -15px;
-}
-.footer .footer-logo {
-  height: 7em;
-  width: 7em;
-}
-.footer .footer-fb {
-  height: 2em;
-  width: 2em;
-  margin-left: 1em;
-}
-.footer .footer-twitter {
-  height: 2em;
-  width: 2em;
-  margin-left: 1em;
-}
-.footer ul {
-  list-style-type: none;
-  margin-top: 3em;
-}
-.footer ul li {
-  color: steelblue;
-  font-family: "Work Sans", sans-serif;
-  font-weight: 600;
-}
-.footer .first-list {
-  border-right: 1px solid steelblue;
-}
-.footer button {
-  background-color: mediumseagreen;
-  margin-top: 2em;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 400;
-  margin-left: 5em;
-}
-.footer .final {
-  background-color: black;
-  color: darkslategray;
-}
 @media screen and (max-width: 575px) {
   li {
     display: block;
@@ -300,16 +258,6 @@
   .fourth-section .panel-default img {
     height: 100%;
     width: 100%;
-  }
-  .footer .footer-logos {
-    margin: 0 auto;
-    text-align: center;
-  }
-  .footer li {
-    text-align: center;
-  }
-  .footer .final {
-    text-align: center;
   }
 }
 @media screen and (min-width: 631px) {
@@ -590,10 +538,15 @@ button {
     top: 0;
     filter: blur(5px);
   }
-}
-@media screen and (max-width: 575px) and screen and (min-width: 576px) {
-  li {
-    display: inline;
+  .footer .footer-logos {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .footer li {
+    text-align: center;
+  }
+  .footer .final {
+    text-align: center;
   }
 }
 .page-scroll a {
@@ -656,4 +609,46 @@ button {
   margin-left: 1.5em;
   margin-right: 1.5em;
   text-align: center;
+}
+.footer {
+  background-color: #302e2e;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.footer .footer-logo {
+  height: 7em;
+  width: 7em;
+}
+.footer .footer-fb {
+  height: 2em;
+  width: 2em;
+  margin-left: 1em;
+}
+.footer .footer-twitter {
+  height: 2em;
+  width: 2em;
+  margin-left: 1em;
+}
+.footer ul {
+  list-style-type: none;
+  margin-top: 3em;
+}
+.footer ul li {
+  color: steelblue;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+}
+.footer .first-list {
+  border-right: 1px solid steelblue;
+}
+.footer button {
+  background-color: mediumseagreen;
+  margin-top: 2em;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  margin-left: 5em;
+}
+.footer .final {
+  background-color: black;
+  color: darkslategray;
 }
